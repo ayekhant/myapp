@@ -1,0 +1,144 @@
+.container{
+    background-color: black;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.box1{
+    width: 100px;
+    height: 100px;
+    border: 1px solid yellow;
+    background-color: aqua;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    z-index: 3;
+    /* transform: scaleX(2); centre ka ny 2x phyel dr
+    transform: scale(x,y)
+    transform: skew(xdeg,ydeg);
+    translate
+    rotate*/
+   
+}
+
+.box2{
+    width: 100px;
+    height: 100px;
+    border: 1px solid yellow;
+    background-color: burlywood;
+    position: absolute;
+    left: 300px;
+    top: 300px;
+    z-index: 5; /* index myr ly ly a paw yout ly ly*/
+    
+    animation: san 3s infinite;
+}
+@keyframes san {
+     0%{
+         transform: rotate(50deg);
+     }  
+     50%{
+         transform: skew(20deg,20deg);
+     } 
+     100%{
+         transform: rotate(360deg);
+}
+
+}
+.box3{
+    width: 100px;
+    height: 100px;
+    border: 1px solid yellow;
+    position: absolute;
+    background-color: mediumpurple;
+    left: 60px;
+    top: 60px;
+    z-index: 7;
+    transform: skew(20deg);
+    animation: sanimation 3s infinite;
+}
+@keyframes sanimation {
+     0%{
+         transform: translate(500px,500px);
+     }   
+     100%{
+         transform: translate(-50px,-50px);
+}
+}
+.container2{
+    background-color: blanchedalmond;
+    width: 900px;
+    height: 600px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+    
+
+.circle1{
+    width: 200px;
+    height: 200px;
+    border: 2px solid blue;
+    border-radius: 50%;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+
+}
+.circle2{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 50%;
+    position: absolute;
+    left: 250px;
+    top: 20px;   
+}
+.circle3{
+    width: 200px;
+    height: 200px;
+    border: 2px solid red;
+    border-radius: 50%;
+    position: absolute;
+    left: 480px;
+    top: 20px;
+}
+.circle4{
+    width: 200px;
+    height: 200px;
+    border: 2px solid rgb(139, 139, 33);
+    border-radius: 50%;
+    position: absolute;
+    top: 150px;
+    left: 135px;
+}
+.circle5{
+    width: 200px;
+    height: 200px;
+    border: 2px solid green;
+    border-radius: 50%;
+    position: absolute;
+    top:150px;
+    left: 365px;
+}
+.container3{
+    width: 500px;
+    height: 500px;
+}
+span{
+    position: relative;
+}
+.title-line::before{
+    content: '';
+    width: 100px;
+    height: 5px;
+    background: blue;
+    position: absolute;
+    top: 20px;
+}

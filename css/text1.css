@@ -1,0 +1,20 @@
+.a
+{
+    background-color: rgb(19, 101, 56);
+    color: rgb(24, 40, 4);
+    text-decoration: dotted;
+    text-align: center;
+}
+.apple
+{
+    color: rgb(104, 65, 14);
+}
+
+#happy
+{
+    color: rgb(19, 5, 36);
+}
+.apple,#happy
+{
+    color: rgb(130, 130, 10);
+}

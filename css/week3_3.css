@@ -1,0 +1,102 @@
+body{
+    margin: 0px;
+}
+nav{
+    background-color: blue;
+    width: 100%;
+    height: 50px;
+}
+.row1{
+   margin-right:50px;
+}
+.col1{
+    float: right;
+    background-color: yellow;
+    width: 100px;
+    height: 50px;
+}
+.col2{
+    float: right;
+    background-color: red;
+    width: 100px;
+    height: 50px;
+}
+a{
+    text-decoration: none;
+    margin: 20px;
+    line-height: 40px;
+}
+.col1:hover{
+    background-color: antiquewhite;
+}
+.col2:hover{
+    background-color: aquamarine;
+}
+.col3{
+    float: left;
+    background-color: brown;
+    width: 100px;
+    height: 50px;
+}
+.col4{
+    float: left;
+    background-color: rgb(59, 18, 163);
+    width: 100px;
+    height: 50px;
+}
+.col5{
+    float: left;
+    background-color: rgb(90, 11, 94);
+    width: 100px;
+    height: 50px;
+}
+.col6{
+    float: left;
+    background-color: rgb(20, 162, 117);
+    width: 100px;
+    height: 50px;
+}
+.col3:hover{
+    background-color: aquamarine;
+}
+.col4:hover{
+    background-color: antiquewhite;
+}
+.col5:hover{
+    background-color: rgb(202, 172, 133);
+}
+.col6:hover{
+    background-color: aquamarine;
+}
+.container{
+    width: 300px;
+    height: 500px;
+    border:2px solid red;
+}
+.box1{
+    width: 100px;
+    height: 100px;
+    border: 2px solid  rgb(41, 151, 214);
+    position:relative;
+    top: 50px;
+    left: 50px;
+}
+.box2{
+    width: 100px;
+    height: 100px;
+    border: 2px solid rgb(89, 173, 104);
+    position: absolute;
+    top: 100px;
+    right: 200px;
+}
+.box3{
+    width: 100px;
+    height: 100px;
+    border: 2px solid rgb(165, 209, 45);
+    position: relative;
+    top: 100px;
+    left: 50px;
+}
+/* Relative And Absolute 
+top right bottom left
+Fixed px */

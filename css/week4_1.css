@@ -1,0 +1,101 @@
+nav{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(158, 87, 224);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ul{
+    list-style: none;
+    margin-left: 100px;
+}
+ul li{
+    float: left;
+    padding:15px;
+    position: relative;
+}
+
+ul li a{
+    color: antiquewhite;
+    text-decoration: none; 
+}
+nav>ul>li:hover{
+    background-color: antiquewhite;
+}
+nav>ul>li:hover a{
+    color: rgb(158, 87, 224);
+}
+.submenu{
+    display: none;
+}
+ul li:hover .submenu{
+    display: block;
+    position: absolute;
+    top: 50px;
+    left: -100px;
+}
+.submenu ul li{
+    width: 70px;
+    clear: both;
+    background-color: darkturquoise;
+    position: relative;
+}
+.submenu ul li:hover{
+    background-color: aquamarine;
+}
+
+
+/*.submenu2 ul li{
+    clear: both;
+}
+.submenu2{
+    display: none;
+}
+ul li:hover .submenu2{
+    display:block;
+    position: absolute;
+    left: -100px;
+    background-color: darkkhaki;
+}*/
+.submenu>ul>li>.submenu1{
+    display: none;
+}
+.submenu>ul>li:hover>.submenu1{
+    display: block;
+    position:absolute;
+    left: -1px;
+}
+.parent{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 600px;
+    border: 2px solid red;
+    justify-content: center;
+    align-items: center;
+}
+.box0{
+    width:500px;
+    height:100px;
+    border:2px solid blueviolet;
+}
+.box1,.box2{
+    width: 500px;
+    height: 100px;
+    border: 2px solid green;
+}
+.container{
+    display: block;
+    width: 100%;
+    height: 200px;
+    border: 2px solid peru;
+}
+.div1{
+    display: inline-block;
+    width:200px;
+    height:200px;
+    border:2px solid black;
+}
+/* in line block ka child mr*/

@@ -1,0 +1,212 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+/*.row1{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(13, 13, 114);
+}
+.row1>h3>a{
+    color: white;
+    text-decoration: none;    
+}
+.row1>h3:hover{
+    color:white;
+
+}
+.row1>h3:hover>a{
+    color: rgb(11, 11, 220);
+    opacity: 0.9;
+}
+.one>ul>li>a{
+    color:white;
+    text-decoration: none;
+}
+.one>ul>li:hover>a{
+    color:blue;
+    
+}
+.one>ul{
+    display: flex;
+    justify-content: flex-end;
+    
+
+}*/
+.row1{
+    background-image: url('../image/six1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    /*position: absolute;*/
+}
+.subbox{
+    width: 550px;
+    height: 40px;
+    background-color:rgb(232, 223, 223);
+    border: 2px solid white;
+    position: relative;
+    top: 200px;
+    left: 60px;
+}
+.subbox>a{
+    color: rgb(4, 4, 156);
+    text-decoration: none;
+    position: relative;
+    left: 20px;
+    top: 10px;   
+}
+.subbox:hover{
+    background-color: rgb(4, 4, 156);
+}
+.subbox:hover>a{
+    color: white;
+}
+h1{
+    color: white;
+    font-size: 48px;
+    position:relative;
+    left: 60px;
+    top:200px;
+}
+.row1>p{
+    color: white;
+    font-size: 25px;
+    position: relative;
+    top: 220px;
+    left: 950px;
+}
+.row1>p:hover{
+    color: blue;
+    opacity: 0.9;
+}
+.parent{
+    background-color: rgb(10, 10, 115);
+    width: 100%;
+    height: 900px;
+    position: absolute;
+    
+}
+.row2{
+    display: flex;
+    justify-content: space-around;
+}
+.parent>h1{
+    color: white;
+    position: relative;
+    top: 30px;
+    
+    
+}
+.row2>.column{
+    width: 27%;
+    height: 290px;
+    border: 1px solid black;
+}
+.row2>.column>a:hover{
+    color: blue;
+    opacity: 0.4;
+}
+.row2>.column>a{
+    color:white;
+    text-decoration: none;
+}
+.row2>.column>p{
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto Flex', sans-serif;
+    line-height: 30px;
+}
+.parent3{
+    position: relative;
+    top: 900px;
+}
+.parent3>h1{
+    color: black;
+    position: relative;
+    top: 30px;
+}
+.row3{
+   
+    display: flex;
+    justify-content: space-around;
+}
+
+.column3{
+    width: 27%;
+    height: 290px;
+    border: 1px solid black;
+}
+.parent3>.row3>.column3>a{
+    color: rgb(4, 4, 75);
+    text-decoration:underline;
+}
+.parent3>.row3>.column3>p{
+    color:rgb(4, 4, 75) ;
+    font-size: 20px;
+    font-family: 'Roboto Flex', sans-serif;
+    line-height: 30px;
+    
+}
+.heading>h1{
+    color: rgb(7, 7, 146);
+}
+.parent3>.row4{
+    display: flex;
+    justify-content: space-between; 
+    
+}
+.parent3>.row4>.column4{
+    position: relative;
+    top: 200px;
+    margin-left: 50px;
+    width: 550px;
+    height: 300px;
+    border: 2px solid rgb(7, 7, 138);
+}
+.parent3>.row4>.column4 h1{
+    color: rgb(7, 7, 138);
+    font-size: 100px;
+   position: relative;
+   top: -80px;
+   left: 200px;
+
+}
+.parent3>.row4>.column4 p{
+    color: rgb(90, 86, 86);
+    font-style: italic;
+    position: absolute;
+    top: 110px;
+    font-size: 20px;
+    left: 50px;
+}
+.parent3>.row4>.column4>.box4{
+    width: 100px;
+    height: 50px;
+    border: 2px solid blue;
+}
+
+.parent3>.row4>.column5{
+    position: relative;
+    top: 200px;
+    margin-right: 50px;
+    width: 550px;
+    height: 300px;
+    border: 2px solid rgb(7, 7, 138);
+}
+.parent3>.row4>.column5>h1{
+    color: rgb(7, 7, 138);
+    font-size: 100px;
+    position: relative;
+   top: -80px;
+   left: 200px;
+}
+.parent3>.row4>.column5 p{
+    color: rgb(90, 86, 86);
+    font-style: italic;
+    position: absolute;
+    top: 110px;
+    font-size: 20px;
+    left: 180px;
+}

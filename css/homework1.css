@@ -1,0 +1,5 @@
+#row1{
+    width: 100%;
+    height: 1000px;
+    background: linear-gradient(90deg,black,rgb(224, 207, 18),rgb(227, 224, 202));
+}

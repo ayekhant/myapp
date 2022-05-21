@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+}
+.box1{
+    width: 500px;
+    height: 280px;
+    border: 2px solid rgb(135, 135, 235);
+    background-color: rgb(67, 67, 230);
+    opacity: 0.5;
+    position: relative;
+    top: 200px;
+    left: 100px; 
+}
+.image{
+    background-image: url('../image/gym-coronavirus.webp');
+    background-repeat:no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+    /*position: absolute;*/
+}
+.box2{
+    background-color: rgb(6, 158, 234);
+    width: 150px;
+    height: 40px;
+    position: relative;
+    left: 150px; 
+}
+.box2:hover{
+    background-color: rgb(54, 9, 158);
+}
+.box2>a{
+    text-decoration: none;
+    margin: 35px;
+    line-height: 35px;    
+}
+.row2{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(41, 145, 242);
+  
+}
+.row3{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(19, 198, 218);
+    /*margin-right: 50px;*/
+}
+.col{
+    width: 100px;
+    height: 80px;
+    float: right;
+}
+a{
+    text-decoration: none;
+    line-height: 70px;
+    
+}
+.col:hover{
+    background-color: aquamarine;
+}
+.col2{
+    width: 25%;
+    height: 240px;
+    border: 2px solid rgb(177, 177, 195);
+    float: left;
+    margin: 10px;
+    margin-left: 70px;
+    margin-top: 200px;
+    
+}
+.banner{
+    width: 100%;
+    height: 50px;
+    border: 1px solid rgb(86, 181, 232);
+    background-color: rgb(107, 178, 228);
+}
+.banner>h1{
+    color: aliceblue;
+    line-height: 40%;
+    font-style: italic;
+    float: left;
+   /* font-family: 'Roboto Flex', sans-serif;*/
+}
+.banner>p{
+    color: rgb(222, 230, 237);
+    float: right;
+    
+}
+.col3{
+    width: 25%;
+    height: 240px;
+    border: 2px solid black;
+    float: left;
+    margin-left: 70px;
+    margin-top: 150px;
+}
+.col3>h1{
+    color: rgb(231, 14, 14);
+    text-align: center;
+}
+.col3>p{
+    color: rgb(69, 52, 52);
+    line-height: 25px;
+}
+.col3box>a{
+    text-decoration: none;
+    line-height: 70px;
+   
+}
+.col3box{
+    width: 100px;
+    height: 30px;
+    background-color: orange;
+    position: relative;
+}
